@@ -1,4 +1,4 @@
 #!/bin/bash
 
-curl -s https://api.2b2t.au/v1/stats > ./stats.json;
-curl -s https://api.2b2t.au/v1/balance > ./balance.json;
+curl -s https://api.2b2t.au/v1/stats > /home/debian/old-web-data/stats.json;
+curl -s https://api.2b2t.au/v1/balance > /home/debian/old-web-data/balance.json;

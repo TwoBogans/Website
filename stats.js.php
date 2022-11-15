@@ -11,8 +11,8 @@ function update() {
     // Balance
     let bal = JSON.parse(atob("<?php echo base64_encode(file_get_contents('./balance.json')); ?>"))
 
-    document.all['bal-amount'].textContent = String('$' + bal.wallet + ' / $' + bal.costs + ' + bal.currency);
-//     document.all['bal-month'].textContent  = String(bal.month);
+    document.all['bal-amount'].textContent = String('$' + bal.wallet + ' / $' + bal.costs + ' ' + bal.currency + '');
+    document.all['bal-month'].textContent  = String(bal.month);
 }
 
 // Background Image
