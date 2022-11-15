@@ -1,4 +1,4 @@
 #!/bin/bash
 
-curl -s localhost:4567/v1/stats > /home/hausemaster/anarchyweb/stats.json;
-curl -s localhost:4567/v1/balance > /home/hausemaster/anarchyweb/balance.json;
+curl -s https://api.2b2t.au/v1/stats > ./stats.json;
+curl -s https://api.2b2t.au/v1/balance > ./balance.json;
