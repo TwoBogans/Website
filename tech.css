@@ -1,8 +1,6 @@
 body {
     font-family:Helvetica, sans-serif;
     font-size: 11px;
-    margin: 0;
-    padding: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,8 +15,6 @@ body {
 }
 
 html {
-    margin: 0;
-    padding: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
