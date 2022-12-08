@@ -27,9 +27,21 @@ html {
 }
 
 div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #000;
-    color: #fff;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    display: table-cell;
+}
+div > iframe{
+  width: 200px;
+}
+div,
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: table;
 }
