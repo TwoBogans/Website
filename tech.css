@@ -1,6 +1,4 @@
 body {
-    font-family:Helvetica, sans-serif;
-    font-size: 11px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8,7 +6,6 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -moz-white-space: revert;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
@@ -22,7 +19,6 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -moz-white-space: pre-line;
     width: 100%;
     height: 100%;
     display: table;
